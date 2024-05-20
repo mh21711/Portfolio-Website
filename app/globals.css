@@ -38,6 +38,12 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  /* This is My Variables */
+  --Main-Color: #0ef;
+  --Second-Color: #081b29;
+  --Third-Color: cyan;
+  --Main-Transition: 0.3s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,7 +83,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "poppins", sans-serif;
 }
+
+/* ::-webkit-scrollbar {
+  width: 50px;
+} */
 
 html,
 body {
@@ -85,14 +96,28 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {  
+  background-color: var(--Main-Color);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--Second-Color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--Second-Color);
+  color: #ededed;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 a {
