@@ -9,7 +9,7 @@ const Contact = () => {
             <section className={styles.contact} id="Contact">
                 <div className={styles.contacttext}>
                     <h2 className={styles.subtitle}>Contact <span>Me</span></h2>
-                    <h4>Let's Work Together</h4>
+                    <h4>Let&apos;s Work Together</h4>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Quas exercitationem corporis aut dignissimos quisquam iure ipsam cupiditate

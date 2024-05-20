@@ -8,9 +8,9 @@ const Landing_Page = () => {
   return (
     <section className={styles.home} id="Home">
         <div className={styles.homecontent}>
-        <h3>Hello, It's Me</h3>
+        <h3>Hello, It&apos;s Me</h3>
         <h1>Mahmoud Elrashedy</h1>
-        <h3>And I'm a <span><Typewriter words={["FrontEnd Developer", "React Developer", "Web Developer"]}
+        <h3>And I&apos;m a <span><Typewriter words={["FrontEnd Developer", "React Developer", "Web Developer"]}
         loop={Infinity}
         cursor
         typeSpeed={100}
