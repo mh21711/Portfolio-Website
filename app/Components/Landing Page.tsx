@@ -2,6 +2,7 @@ import styles from "../page.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagramSquare } from "react-icons/fa";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import { FaArrowUp } from "react-icons/fa";
 
 const Landing_Page = () => {
   return (
@@ -29,6 +30,7 @@ const Landing_Page = () => {
         <a href="https://www.linkedin.com/in/mahmoudelrashedy/" target="_blank" className={styles.link}>More About Me</a>
         </div>
         <a href="#About" className={styles.arrow}><MdKeyboardDoubleArrowDown /></a>
+        <a href="#" className={styles.up}><FaArrowUp /></a>
     </section>
   )
 }
