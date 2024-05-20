@@ -4,7 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 const Skills = () => {
   return (
-    <div id="Skills">
+    <div id="Skills" className={styles.skills}>
       <h1 className={styles.subtitle}>My <span>Skills</span></h1>
       <section className={styles.section}>
           <div className={styles.container1}>

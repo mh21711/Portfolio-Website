@@ -346,10 +346,12 @@
 }
 /* End Services Section */
 /* Start Skills Section */
+.skills {
+  padding-top: 150px;
+}
 .section {
   display: flex;
   flex-wrap: wrap;
-  min-height: 70vh;
 }
 .container1 {
   width: 550px;
